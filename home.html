@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {margin: 0;}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: green;}
+
+ul.topnav li a.active {background-color: grey;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li {float: none;}
+}
+
+/* social handles */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #8a3ab9;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 80px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 80%;
+}
+
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height : 20%;
+   background-color: #04AA6D;
+   color: white;
+   text-align: center;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+
+   overflow: hidden;
+}
+
+li {
+   float: right;
+
+}
+
+
+li a {
+   display :block;
+   padding: 12px;
+   background-color: black;
+   color: white;
+
+}
+title  {
+text-align: right;
+
+}
+
+b{
+float:right;
+}
+
+h {
+color: black;
+}
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text{
+position: relative;
+  text-align: left;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: black;
+  font-size:100px;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+</style>
+
+<body style = background-color:white>
+<div class="social">
+<!-- Add font awesome icons -->
+<b href="#" class="fa fa-facebook"></b>
+<b href="#" class="fa fa-twitter"></b>
+<b href="#" class="fa fa-instagram"></b>
+</div>
+
+<div>
+<br>
+<img src="images\bikekingborderslogo.PNG" alt="Scenery" width="8%" height="4%">
+<title style= "font-size:15pt"> Bike Mark  </title>
+<h style= "font-size:40pt"> Bike Mark </h>
+</div>
+
+<ul style="text-align:center;"  class="topnav">
+<li><a class="active" href="home.html">Home</a></li>
+  <li><a href="OurLocation.html">Our Location</a></li>
+  <li><a href="ContactUs.html">Contact Us</a></li>
+   <li><a href="Shop.html">Shop</a></li>
+    <li><a href="BikingTrails.html">Biking Trails</a></li>
+</ul>
+
+
+
+<div class="text" >
+<img src="images\bike trail.jpg" alt="trails" class="img" width="100%" height="100%">
+<div class="centered">BIKE <br> MARK</div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_5terre.jpg">
+      <img src="images\biketrail1.jpg"  width="600" height="400">
+    </a>
+    <div class="desc">Bike rentals</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="images\biketrail2.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Kids fun trails</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="images\biketrail3.jpg"  width="600" height="600">
+    </a>
+    <div class="desc">Mountain biking</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="images\biketrail4.jpg" width="600" height="400">
+    </a>
+    <div class="desc">Family joy riding</div>
+  </div>
+</div>
+<div class="clearfix"></div>
+
+<form action="" style="border:1px solid #ccc">
+
+  <div class="container">
+    <h1>Sign Up</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="email"><b></b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b></b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b></b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button onclick="myFunction()" type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
+
+<script>
+function myFunction() {
+  alert("A confirmation link has been sent to your email");
+}
+
+
+<div class="footer">
+  <h1 style="color:black" ><u>Contact Us</u> </h1>
+  <p style = "color:black"><br>Email: bikemark@gmail.com <br> Phone: 050 1257845</p>
+</div>
+
+
+</body>
+</html>
